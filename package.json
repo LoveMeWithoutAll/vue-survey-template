@@ -14,6 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "survey-vue": "^1.0.20",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
