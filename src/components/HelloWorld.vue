@@ -10,10 +10,12 @@
 import * as SurveyVue from 'survey-vue'
 import surveyJSON from '@/assets/survey.json'
 
+let Survey = SurveyVue.Survey
+
 export default {
   name: 'HelloWorld',
   components: {
-    SurveyVue
+    Survey
   },
   computed: {
     surveyModel () {
